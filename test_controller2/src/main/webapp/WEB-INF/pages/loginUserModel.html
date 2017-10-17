@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>loginUserModel</title>
+    <script type="text/javascript" src="../jquery/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        function sendOne() {
+            var url = "http://localhost:8080/test_controller2_tomcat/b.h";
+            var loginUserModel = {"id":1232,"userName":"Bill-Gates","password":"windows","loginTime":18931208931,"role":1,"isLogin":1};
+            $.ajax({
+                url:"url",
+                type:"POST",
+                data:loginUserModel,
+                dataType:"json",
+                contentType:"application/json",
+                success:function (result) {
+                    alert("success;result=" + result);
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+<div align="center">
+    <input type="button" value="发送一个loginUserModel" onclick="sendOne()">
+</div>
+</body>
+</html>

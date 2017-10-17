@@ -8,10 +8,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Title:b</title>
+    <title>Title:id</title>
 </head>
 <body>
-<h1>b=${b}</h1>
-<h1>loginUserModel=${loginUserModel}</h1>
+<h1>id=${id}</h1>
 </body>
 </html>
