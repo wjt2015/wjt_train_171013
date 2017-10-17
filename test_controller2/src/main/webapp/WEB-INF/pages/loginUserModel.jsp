@@ -1,4 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -63,6 +65,15 @@
             });
         }
 
+        
+        function showCookie() {
+            alert("cookieStr=" + document.cookie);
+        }
+
+        function removeCookieByName(cookieName) {
+            document.cookie = (cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT");
+            alert("cookie=" + document.cookie);
+        }
     </script>
 </head>
 <body>
@@ -74,6 +85,10 @@
     <input type="button" value="sendList" onclick="sendList()" />
     <br/>
     <a href="/test_controller2_tomcat/loginUserModel.h">跳转到modelList页面</a>
+    <br/>
+    <input type="button" value="showCookie" onclick="showCookie()" />
+    <br/>
+    <input type="button" value="removeCookieByName" onclick="removeCookieByName('ID')" />
 </div>
 </body>
 </html>
