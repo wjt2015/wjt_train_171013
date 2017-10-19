@@ -5,6 +5,8 @@ package javaweb.controller;
 
 import com.google.common.base.Preconditions;
 import com.google.common.collect.Lists;
+import com.qunar.scm.common.result.ApiResult;
+import javaweb.model.CookieInfo;
 import javaweb.model.LoginUserModel;
 import javaweb.util.MD5String;
 import org.joda.time.DateTime;
@@ -13,11 +15,13 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -72,9 +76,10 @@ public class InfoController {
 
     @RequestMapping(value = { "/id.h" }, method = { RequestMethod.GET, RequestMethod.POST })
     public ModelAndView getModelAndViewByPost(HttpServletRequest httpServletRequest,
-            HttpServletResponse httpServletResponse, Integer id) {
+            HttpServletResponse httpServletResponse, Integer id,String userName) {
         ModelAndView mv = new ModelAndView("id");
         mv.addObject("id", id);
+        mv.addObject("userName",userName);
         return mv;
     }
 
@@ -88,6 +93,21 @@ public class InfoController {
         return mv;
     }
 
+    @RequestMapping(value = {"/login.h"},method = {RequestMethod.GET,RequestMethod.POST})
+
+
+    public  @ResponseBody ApiResult login(HttpServletRequest httpServletRequest,
+            HttpServletResponse httpServletResponse,String userName,String password){
+
+        System.out.println("\tuserName:" + userName + ";password:" + password);
+
+        List<String> domainList = Lists.newArrayList(".qunar.com",".qunarman.com","localhost");
+        List<String> idList = Lists.newArrayList("1","2");
+        List<String> userinfoList = Lists.newArrayList("HDWJDGH898DSD","DSF8923JDKSD");
+        CookieInfo cookieInfo = new CookieInfo(domainList,idList,userinfoList);
+
+        return ApiResult.succ("登录成功，通知前端种cookie!!",cookieInfo);
+    }
     /**
      * 成功登录后为客户端种植cookie
      *

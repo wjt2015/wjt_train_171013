@@ -65,6 +65,22 @@
             });
         }
 
+        function createCookie(result) {
+            var domainList = result.data.domainList;
+            var idList = result.data.idList;
+            var userinfoList = result.data.userinfoList;
+
+            for(var i = 0;i < domainList.length;i++){
+                var domain = domainList[i];
+                for(j = 0;j < idList.length;j++){
+                    var id = idList[j];
+                    var userinfo = userinfoList[j];
+                    document.cookie = "ID=" + id + ";domain=" + domain;
+                    document.cookie = "USER_INFO=" + userinfo + ";domain=" + domain;
+                }
+            }
+            alert("cookie=" + document.cookie);
+        }
         
         function showCookie() {
             alert("cookieStr=" + document.cookie);
@@ -74,9 +90,38 @@
             document.cookie = (cookieName + "=; expires=Thu, 01 Jan 1970 00:00:00 GMT");
             alert("cookie=" + document.cookie);
         }
+        
+        function login() {
+            var userName = $("#userNameId").val();
+            var password = $("#passwordId").val();
+            alert("userName:" + userName + ";password:" + password);
+            var url = "http://localhost:8080/test_controller2_tomcat/login.h";
+            $.ajax({
+                url:url,
+                type:"POST",
+                async:false,
+/*                headers:{
+                    Accept:"text/html, application/xhtml+xml+json, *!/!*"
+                },*/
+                data:{userName:userName,password:password},
+                dataType:"json",
+/*                contentType:"application/x-www-form-urlencoded;charset=utf-8",*/
+                success:function (result) {
+                    alert("success--result=" + result);
+                    if(result.status == 0){
+                        createCookie(result);
+                    }
+                },
+                error:function (result) {
+                    alert("error--result=" + result);
+                }
+            });
+        }
+
     </script>
 </head>
 <body>
+
 <div align="center">
     <input type="button" value="send one Id" onclick="sendId()" />
     <br/>
@@ -89,7 +134,17 @@
     <input type="button" value="showCookie" onclick="showCookie()" />
     <br/>
     <input type="button" value="removeCookieByName" onclick="removeCookieByName('ID')" />
+    <br/>
 </div>
+
+<div align="center">
+    用户名:<input type="text" id="userNameId" />
+    <br/>
+    密码：<input type="text" id="passwordId" />
+    <br/>
+    <input type="button" value="login" onclick="login()" />
+</div>
+
 </body>
 </html>
 
