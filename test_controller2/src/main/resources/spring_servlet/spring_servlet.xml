@@ -32,11 +32,38 @@
             <bean class="com.fasterxml.jackson.databind.ObjectMapper"/>
         </property>
     </bean>
+<!--
+    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
 
-    <mvc:annotation-driven>
-        <mvc:message-converters>
+    <property name="defaultContentType" value="text/html" />
+
+    &lt;!&ndash;
+        参数值至mimeType的映射,即 /rest?format=json json是key，application/json就是value
+        暂时只支持json和xml
+    &ndash;&gt;
+    <property name="mediaTypes">
+        <map>
+            <entry key="json" value="application/json" />
+            <entry key="xml" value="application/xml" />
+        </map>
+    </property>
+    </bean>-->
+
+    <bean id="contentNegotiationManagerFactoryBean" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+        <property name="mediaTypes">
+            <map>
+                <entry key="h" value="application/json" />
+                <entry key="json" value="application/json" />
+                <entry key="xml" value="application/xml" />
+                <entry key="atom" value="application/atom+xml" />
+            </map>
+        </property>
+    </bean>
+    <mvc:annotation-driven content-negotiation-manager="contentNegotiationManagerFactoryBean">
+
+       <!-- <mvc:message-converters>
             <ref bean="mappingJackson2HttpMessageConverter" />
-        </mvc:message-converters>
+        </mvc:message-converters>-->
     </mvc:annotation-driven>
 
 </beans>

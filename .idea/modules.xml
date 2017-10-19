@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/crawler/crawler.iml" filepath="$PROJECT_DIR$/crawler/crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_controller/test_controller.iml" filepath="$PROJECT_DIR$/test_controller/test_controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test_controller2/test_controller2.iml" filepath="$PROJECT_DIR$/test_controller2/test_controller2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wjt_train_171013.iml" filepath="$PROJECT_DIR$/wjt_train_171013.iml" />
+    </modules>
+  </component>
+</project>

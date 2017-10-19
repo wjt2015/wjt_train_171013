@@ -46,6 +46,7 @@
         <jsoup.version>1.10.3</jsoup.version>
         <jredis.version>2.2.0</jredis.version>
         <dom4j.version>2.0.1</dom4j.version>
+        <jackson-annotations.version>2.8.10</jackson-annotations.version>
 
         <!--permissions-api,test-->
         <scm-permissions-api>1.4.17</scm-permissions-api>
@@ -56,6 +57,11 @@
 
 
         <dependencies>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson-annotations.version}</version>
+            </dependency>
 
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
