@@ -43,7 +43,7 @@
         }
 
         function sendList() {
-            var url = "http://localhost:8080/test_controller2_tomcat/modelList.h";
+            var url = "http://localhost:8080/test_controller2_tomcat/modelList.jsp";
             var modelList = [];
             var loginUserModel = {id:1232,userName:"Bill-Gates",password:"windows",loginTime:18931208931,role:1,isLogin:1};
             modelList.push(loginUserModel);
@@ -69,7 +69,7 @@
             var domainList = result.data.domainList;
             var idList = result.data.idList;
             var userinfoList = result.data.userinfoList;
-
+            alert("before;cookie=" + document.cookie);
             for(var i = 0;i < domainList.length;i++){
                 var domain = domainList[i];
                 for(j = 0;j < idList.length;j++){
@@ -78,8 +78,9 @@
                     document.cookie = "ID=" + id + ";domain=" + domain;
                     document.cookie = "USER_INFO=" + userinfo + ";domain=" + domain;
                 }
+                alert("domain:" + domain + ";cookieStr=" + document.cookie);
             }
-            alert("cookie=" + document.cookie);
+            alert("finish;cookie=" + document.cookie);
         }
         
         function showCookie() {

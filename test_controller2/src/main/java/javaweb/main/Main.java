@@ -3,6 +3,8 @@
  */
 package javaweb.main;
 
+import org.springframework.web.servlet.HandlerMapping;
+
 import java.io.ObjectInputStream;
 
 /**
@@ -12,6 +14,7 @@ public class Main {
     public static void main(String[] args){
         Byte b;
         ObjectInputStream objectInputStream;
+        HandlerMapping handlerMapping;
     }
 }
     

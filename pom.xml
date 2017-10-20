@@ -12,8 +12,8 @@
         <module>test_controller</module>
         <module>test_controller2</module>
         <module>crawler</module>
+        <module>schedule_test</module>
     </modules>
-
 
 
     <properties>
@@ -48,15 +48,43 @@
         <dom4j.version>2.0.1</dom4j.version>
         <jackson-annotations.version>2.8.10</jackson-annotations.version>
 
+        <spring-boot-starter-parent.version>1.5.8.RELEASE</spring-boot-starter-parent.version>
+
+        <log4j-core.version>2.6.2</log4j-core.version>
+
+        <log4j-jcl.version>2.6.2</log4j-jcl.version>
+        <log4j-slf4j-impl.version>2.6.2</log4j-slf4j-impl.version>
         <!--permissions-api,test-->
         <scm-permissions-api>1.4.17</scm-permissions-api>
     </properties>
 
 
     <dependencyManagement>
-
-
         <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-parent</artifactId>
+                <version>${spring-boot-starter-parent.version}</version>
+                <type>pom</type>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-slf4j-impl</artifactId>
+                <version>${log4j-slf4j-impl.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>${log4j-core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-jcl</artifactId>
+                <version>${log4j-jcl.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
                 <artifactId>jackson-annotations</artifactId>
@@ -88,7 +116,7 @@
                 <artifactId>dom4j</artifactId>
                 <version>${dom4j.version}</version>
             </dependency>
-            
+
             <!--java+redis-->
             <dependency>
                 <groupId>redis.clients</groupId>

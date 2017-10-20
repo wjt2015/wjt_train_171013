@@ -66,7 +66,7 @@ public class InfoController {
         return mv;
     }
 
-    @RequestMapping(value = { "modelList.h" }, method = { RequestMethod.GET, RequestMethod.POST })
+    @RequestMapping(value = { "modelList.jsp" }, method = { RequestMethod.GET, RequestMethod.POST })
     public ModelAndView getList(HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse,
             @RequestBody List<LoginUserModel> loginUserModelList) {
         ModelAndView mv = new ModelAndView("modelList");
