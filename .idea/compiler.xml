@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="access_facebook_data" />
+        <module name="crawler" />
+        <module name="schedule_test" />
+        <module name="test_controller" />
+        <module name="test_controller2" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="access_facebook_data" target="1.5" />
+      <module name="crawler" target="1.5" />
+      <module name="schedule_test" target="1.5" />
+      <module name="test_controller" target="1.5" />
+      <module name="test_controller2" target="1.5" />
+      <module name="wjt_train_171013" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
