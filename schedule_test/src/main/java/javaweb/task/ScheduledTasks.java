@@ -1,7 +1,7 @@
 /**
  * Copyright (c) 2017 Qunar.com. All Rights Reserved.
  */
-package task;
+package javaweb.task;
 
 /**
  * @author jintao.wang  Date: 17-10-19 Time: 下午7:09
@@ -10,7 +10,6 @@ package task;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;

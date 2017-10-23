@@ -13,6 +13,7 @@
         <module>test_controller2</module>
         <module>crawler</module>
         <module>schedule_test</module>
+        <module>access_facebook_data</module>
     </modules>
 
 
@@ -54,6 +55,8 @@
 
         <log4j-jcl.version>2.6.2</log4j-jcl.version>
         <log4j-slf4j-impl.version>2.6.2</log4j-slf4j-impl.version>
+        <logback-classic.version>1.1.7</logback-classic.version>
+        <jcl-over-slf4j.version>1.7.21</jcl-over-slf4j.version>
         <!--permissions-api,test-->
         <scm-permissions-api>1.4.17</scm-permissions-api>
     </properties>
@@ -66,6 +69,18 @@
                 <artifactId>spring-boot-starter-parent</artifactId>
                 <version>${spring-boot-starter-parent.version}</version>
                 <type>pom</type>
+            </dependency>
+
+
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>jcl-over-slf4j</artifactId>
+                <version>${jcl-over-slf4j.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>${logback-classic.version}</version>
             </dependency>
 
             <dependency>

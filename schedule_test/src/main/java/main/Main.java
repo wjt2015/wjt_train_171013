@@ -5,7 +5,7 @@ package main;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import task.ScheduledTasks;
+import javaweb.task.ScheduledTasks;
 
 /**
  * @author jintao.wang  Date: 17-10-19 Time: 下午8:11

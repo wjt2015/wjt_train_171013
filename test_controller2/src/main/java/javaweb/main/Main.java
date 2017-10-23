@@ -3,6 +3,8 @@
  */
 package javaweb.main;
 
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.web.servlet.HandlerMapping;
 
 import java.io.ObjectInputStream;
@@ -15,6 +17,8 @@ public class Main {
         Byte b;
         ObjectInputStream objectInputStream;
         HandlerMapping handlerMapping;
+        ApplicationContext ctx = new ClassPathXmlApplicationContext("spring_servlet/spring_servlet.xml");
+
     }
 }
     
