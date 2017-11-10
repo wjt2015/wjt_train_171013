@@ -91,8 +91,11 @@
             <dependency>
                 <groupId>org.mybatis.generator</groupId>
                 <artifactId>mybatis-generator-maven-plugin</artifactId>
-                <version>${mybatis-generator-maven-plugin}</version>
+                <version>${mybatis-generator-maven-plugin.version}</version>
             </dependency>
+
+
+
 
             <!-- https://mvnrepository.com/artifact/nz.ac.waikato.cms.weka/LibSVM -->
             <dependency>

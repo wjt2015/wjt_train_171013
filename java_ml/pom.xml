@@ -24,6 +24,8 @@
             <artifactId>mybatis-generator-maven-plugin</artifactId>
         </dependency>
 
+
+        
         <dependency>
             <groupId>nz.ac.waikato.cms.weka</groupId>
             <artifactId>LibSVM</artifactId>
