@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.wjt-lang.xsd"
+           xmlns="http://www.wjt-lang.xsd" elementFormDefault="qualified">
+
+    <xs:element name="wjt" type="xs:string"/>
+    <xs:attribute name="lang" type="xs:string"/>
+
+    <xs:element name="age">
+        <xs:simpleType>
+            <xs:restriction base="xs:integer">
+                <xs:minInclusive value="0"/>
+                <xs:maxInclusive value="120"/>
+            </xs:restriction>
+        </xs:simpleType>
+    </xs:element>
+
+</xs:schema>

@@ -8,6 +8,8 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.io.Serializable;
+
 /**
  * @author jintao.wang  Date: 17-10-16 Time: 下午8:39
  */
@@ -15,7 +17,8 @@ import lombok.Setter;
 @NoArgsConstructor
 @Setter
 @Getter
-public class LoginUserModel {
+public class LoginUserModel implements Serializable {
+    private static final long serialVersionUID = -4523388452504180325L;
     private Integer id;
 
     private String userName;

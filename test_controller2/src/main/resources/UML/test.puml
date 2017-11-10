@@ -1,0 +1,47 @@
+@startuml
+interface Vihicle
+class Car
+class Bike
+class Wire
+class Motor
+class SUV
+class Student{
+- id:Integer
+- name:String
+-sex:Byte
+-borthDate:Date
+-nativePlace:Address
+void setNativePlace(Address nativePlace)
+Address getNativePlace()
+}
+class CampusClass
+class IdentityCard
+class Driver
+class Wheel
+
+package associativearray{
+class Entry
+class Map
+}
+class "List<T>"{
++ int size()
++ T peek()
++ T first()
++ void add(T t)
+}
+Vihicle<|..Car
+Car<|--SUV
+Car "1" *-- "n" Motor
+Car*--Wire
+Bike<..Student
+CampusClass "1" o-- "n" Student
+Student "1" -- "1" IdentityCard
+Vihicle <|-- Bike
+Driver "1" -- "1" Car:drive >
+Car *-- Wheel:has 4>
+Map "1" *-- "n" Entry
+
+
+note left of Map:associative array
+@enduml
+

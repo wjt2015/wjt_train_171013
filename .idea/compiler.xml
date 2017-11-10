@@ -8,6 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="access_facebook_data" />
         <module name="crawler" />
+        <module name="crawler_2" />
+        <module name="java_ml" />
+        <module name="java_ml2" />
+        <module name="java_web" />
         <module name="schedule_test" />
         <module name="test_controller" />
         <module name="test_controller2" />
@@ -16,6 +20,11 @@
     <bytecodeTargetLevel>
       <module name="access_facebook_data" target="1.5" />
       <module name="crawler" target="1.5" />
+      <module name="crawler_2" target="1.5" />
+      <module name="java_ml" target="1.5" />
+      <module name="java_ml2" target="1.5" />
+      <module name="java_web" target="1.5" />
+      <module name="network_spider" target="1.5" />
       <module name="schedule_test" target="1.5" />
       <module name="test_controller" target="1.5" />
       <module name="test_controller2" target="1.5" />

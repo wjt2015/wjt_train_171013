@@ -1,0 +1,21 @@
+@startuml
+
+
+(*) --> "check input"
+If "input is verbose" then
+-->[Yes] "turn on verbosity"
+-->"check whether input is a number"
+    If "input is a number" then
+    -->[Yes]"alert(This is a number)"
+    -->"run command"
+    else
+    -->[No]"input is not a number"
+    Endif
+    -->"run command"
+    -->(*)
+else
+-->[No] "run command2"
+Endif
+-->(*)
+@enduml
+

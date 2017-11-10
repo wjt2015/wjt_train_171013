@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/access_facebook_data/access_facebook_data.iml" filepath="$PROJECT_DIR$/access_facebook_data/access_facebook_data.iml" />
       <module fileurl="file://$PROJECT_DIR$/crawler/crawler.iml" filepath="$PROJECT_DIR$/crawler/crawler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawler_2/crawler_2.iml" filepath="$PROJECT_DIR$/crawler_2/crawler_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_ml/java_ml.iml" filepath="$PROJECT_DIR$/java_ml/java_ml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_ml2/java_ml2.iml" filepath="$PROJECT_DIR$/java_ml2/java_ml2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_web/java_web.iml" filepath="$PROJECT_DIR$/java_web/java_web.iml" />
       <module fileurl="file://$PROJECT_DIR$/schedule_test/schedule_test.iml" filepath="$PROJECT_DIR$/schedule_test/schedule_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_controller/test_controller.iml" filepath="$PROJECT_DIR$/test_controller/test_controller.iml" />
       <module fileurl="file://$PROJECT_DIR$/test_controller2/test_controller2.iml" filepath="$PROJECT_DIR$/test_controller2/test_controller2.iml" />
