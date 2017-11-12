@@ -100,12 +100,12 @@ Time:
 @Accessors(chain
 =
 true)
-public class AccountEntity extends BaseEntity {
+public class RoleEntity extends BaseEntity {
     private Integer id;
 
-    private String qtalk;
-
     private String name;
+
+    private String detail;
 
     private Byte available;
 
@@ -117,6 +117,8 @@ public class AccountEntity extends BaseEntity {
 
     private String updateUser;
 
+    private Integer countofmember;
+
     public Integer getId() {
         return id;
     }
@@ -125,20 +127,20 @@ public class AccountEntity extends BaseEntity {
         this.id = id;
     }
 
-    public String getQtalk() {
-        return qtalk;
-    }
-
-    public void setQtalk(String qtalk) {
-        this.qtalk = qtalk == null ? null : qtalk.trim();
-    }
-
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name == null ? null : name.trim();
+    }
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail == null ? null : detail.trim();
     }
 
     public Byte getAvailable() {
@@ -179,5 +181,13 @@ public class AccountEntity extends BaseEntity {
 
     public void setUpdateUser(String updateUser) {
         this.updateUser = updateUser == null ? null : updateUser.trim();
+    }
+
+    public Integer getCountofmember() {
+        return countofmember;
+    }
+
+    public void setCountofmember(Integer countofmember) {
+        this.countofmember = countofmember;
     }
 }

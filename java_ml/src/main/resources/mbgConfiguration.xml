@@ -7,10 +7,22 @@
     <properties resource="db/jdbc.properties"/>
     <context id="mysqlMapper" targetRuntime="MyBatis3">
         <!-- 生成的pojo，将implements Serializable-->
-        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+   <!--     <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>-->
+
+        <!-- 生成的Java文件的编码 -->
+        <property name="javaFileEncoding" value="UTF-8"/>
+        <!-- 格式化java代码 -->
+        <property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter"/>
+
         <commentGenerator>
             <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
             <property name="suppressAllComments" value="true"/>
+
+            <!-- 是否添加字段注释 true:是 false：否 -->
+            <property name="addRemarkComments" value="true" />
+            <!-- 自定义属性 作者名称 -->
+            <property name="author" value="jintao.wang" />
+
         </commentGenerator>
 
         <!-- 数据库链接URL、用户名、密码 -->
@@ -37,6 +49,9 @@
             <property name="enableSubPackages" value="true"/>
             <!-- 从数据库返回的值被清理前后的空格  -->
             <property name="trimStrings" value="true"/>
+
+            <property name="rootClass" value="javaweb.common.BaseEntity"/>
+
         </javaModelGenerator>
 
         <!--对应的mapper.xml文件  -->
@@ -55,18 +70,24 @@
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false">
             <property name="useActualColumnNames" value="false"/>
+
+            <property name="rootClass" value="javaweb.common.BaseEntity"/>
         </table>
 
-        <table tableName="rule" domainObjectName="RuleEntity"
+        <table tableName="role" domainObjectName="RoleEntity"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false">
             <property name="useActualColumnNames" value="false"/>
+
+            <property name="rootClass" value="javaweb.common.BaseEntity"/>
         </table>
 
         <table tableName="account" domainObjectName="AccountEntity"
                enableCountByExample="false" enableUpdateByExample="false" enableDeleteByExample="false"
                enableSelectByExample="false" selectByExampleQueryId="false">
             <property name="useActualColumnNames" value="false"/>
+
+            <property name="rootClass" value="javaweb.common.BaseEntity"/>
         </table>
 
         <table tableName="role_authority" domainObjectName="RoleAuthorityEntity"

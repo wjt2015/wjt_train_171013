@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/access_facebook_data" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/crawler" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/crawler_2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_ml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_ml2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/java_web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/schedule_test" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_controller" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/test_controller2" charset="UTF-8" />
+  </component>
+</project>

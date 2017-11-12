@@ -22,6 +22,7 @@ import org.mybatis.generator.internal.DefaultShellCallback;
 public class MBG_Main {
     public static void main(String[] args) {
         List<String> warnings = new ArrayList<String>();
+
         boolean overwrite = true;
         String genCfg = "/mbgConfiguration.xml";
         File configFile = new File(MBG_Main.class.getResource(genCfg).getFile());
@@ -52,4 +53,5 @@ public class MBG_Main {
         }
     }
 }
-    
+
+

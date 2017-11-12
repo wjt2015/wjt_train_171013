@@ -1,9 +1,106 @@
 package javaweb.entity;
 
-import java.io.Serializable;
 import java.util.Date;
+import javaweb.common.BaseEntity;
 
-public class RoleAuthorityEntity implements Serializable {
+import
+lombok.AllArgsConstructor;
+import
+lombok.Getter;
+import
+lombok.NoArgsConstructor;
+import
+lombok.Setter;
+import
+lombok.ToString;
+import
+lombok.experimental.Accessors;
+addComment.sh
+addComment.sh~
+arr.sh
+date.sh
+delete2.sh
+delete2.sh~
+delete3.sh
+delete3.sh~
+delete.sh
+delete.sh~
+grep_test2.sh
+grep_test.sh
+modify2.sh
+modify.sh
+output.txt
+reg.txt
+rename.sh
+rename.sh~
+sed.sh
+sed.txt
+substitute.sh
+@author
+jintao.wang
+Date:
+2017-11-10
+Time:
+下午
+9:38
+@AllArgsConstructor
+@NoArgsConstructor
+@Setter
+@Getter
+@EqualsAndHashCode
+@Accessors(chain
+=
+true)
+import
+lombok.AllArgsConstructor;
+import
+lombok.Getter;
+import
+lombok.NoArgsConstructor;
+import
+lombok.Setter;
+import
+lombok.ToString;
+import
+lombok.experimental.Accessors;
+addComment.log
+addComment.sh
+addComment.sh~
+arr.sh
+date.sh
+delete2.sh
+delete2.sh~
+delete3.sh
+delete3.sh~
+delete.sh
+delete.sh~
+grep_test2.sh
+grep_test.sh
+modify2.sh
+modify.sh
+output.txt
+reg.txt
+rename.sh
+rename.sh~
+sed.sh
+sed.txt
+substitute.sh
+@author
+jintao.wang
+Date:
+2017-11-10
+Time:
+下午
+9:39
+@AllArgsConstructor
+@NoArgsConstructor
+@Setter
+@Getter
+@EqualsAndHashCode
+@Accessors(chain
+=
+true)
+public class RoleAuthorityEntity extends BaseEntity {
     private Integer id;
 
     private Integer roleId;
@@ -19,8 +116,6 @@ public class RoleAuthorityEntity implements Serializable {
     private Date updateTime;
 
     private String updateUser;
-
-    private static final long serialVersionUID = 1L;
 
     public Integer getId() {
         return id;
