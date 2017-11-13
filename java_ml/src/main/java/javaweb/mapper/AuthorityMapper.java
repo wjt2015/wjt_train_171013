@@ -3,15 +3,15 @@ package javaweb.mapper;
 import javaweb.entity.AuthorityEntity;
 
 public interface AuthorityMapper {
-    int deleteByPrimaryKey(Integer id);
+    int delete(Integer id);
 
-    int insert(AuthorityEntity record);
+    int save(AuthorityEntity record);
 
-    int insertSelective(AuthorityEntity record);
+    int save(AuthorityEntity record);
 
-    AuthorityEntity selectByPrimaryKey(Integer id);
+    AuthorityEntity query(Integer id);
 
-    int updateByPrimaryKeySelective(AuthorityEntity record);
+    int update(AuthorityEntity record);
 
-    int updateByPrimaryKey(AuthorityEntity record);
+    int update(AuthorityEntity record);
 }

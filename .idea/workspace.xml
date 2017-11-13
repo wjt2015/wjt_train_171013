@@ -2,107 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a3341e-34a0-41e9-82d3-334050ef5ab3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/tools/normalize.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/tools/rmEntityAndMapper.sh" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountRoleEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AuthorityEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleAuthorityEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleEntity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountEntityMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountRoleEntityMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AuthorityEntityMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleAuthorityEntityMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleEntityMapper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountRoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AuthorityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleAuthorityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/AccountEntityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/AccountMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/AccountRoleEntityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/AccountRoleMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/AuthorityEntityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/AuthorityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/RoleAuthorityEntityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/RoleAuthorityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/RoleEntityMapper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mappers/RoleMapper.xml" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/tools/delete3.sh" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/tools/deleteRedundant.sh" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access_facebook_data/pom.xml" afterPath="$PROJECT_DIR$/access_facebook_data/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access_facebook_data/src/main/java/javaweb/main/Main.java" afterPath="$PROJECT_DIR$/access_facebook_data/src/main/java/javaweb/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access_facebook_data/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/access_facebook_data/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/pom.xml" afterPath="$PROJECT_DIR$/crawler/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/src/main/java/javaweb/main/Main.java" afterPath="$PROJECT_DIR$/crawler/src/main/java/javaweb/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/src/main/resources/log4j2.properties" afterPath="$PROJECT_DIR$/crawler/src/main/resources/log4j2.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/crawler/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler_2/pom.xml" afterPath="$PROJECT_DIR$/crawler_2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler_2/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/crawler_2/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/pom.xml" afterPath="$PROJECT_DIR$/java_ml/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/common/AvailableEnum.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/common/AvailableEnum.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/common/BaseEntity.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/common/BaseEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/MBG_Main.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/MBG_Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/Main.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/log4j2.properties" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/log4j2.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mbgConfiguration.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/mbgConfiguration.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mbgConfiguration_template.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/mbgConfiguration_template.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/tools/addAnnotation.sh" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/tools/addAnnotation.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/tools/rename.sh" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/tools/rename.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml2/pom.xml" afterPath="$PROJECT_DIR$/java_ml2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml2/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/java_ml2/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_web/pom.xml" afterPath="$PROJECT_DIR$/java_web/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_web/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/java_web/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/pom.xml" afterPath="$PROJECT_DIR$/schedule_test/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/config/AppConfig.java" afterPath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/config/AppConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/spring_redis/Receiver.java" afterPath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/spring_redis/Receiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/spring_redis/RedisConfig.java" afterPath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/spring_redis/RedisConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/task/ScheduledTasks.java" afterPath="$PROJECT_DIR$/schedule_test/src/main/java/javaweb/task/ScheduledTasks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/src/main/java/main/Main.java" afterPath="$PROJECT_DIR$/schedule_test/src/main/java/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/src/main/resources/spring/springmvc_servlet.xml" afterPath="$PROJECT_DIR$/schedule_test/src/main/resources/spring/springmvc_servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule_test/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/schedule_test/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/pom.xml" afterPath="$PROJECT_DIR$/test_controller/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/Main.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/controller/HelloController.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/controller/HelloController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/CookieNameValue.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/CookieNameValue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/CookieRecord.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/CookieRecord.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/EmployeeListOnduty.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/EmployeeListOnduty.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/InitParameter.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/InitParameter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/LoginUserModel.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/LoginUserModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/OndutyModel.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/OndutyModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/PicBlob.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/javaweb/model/PicBlob.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/java/test/test.java" afterPath="$PROJECT_DIR$/test_controller/src/main/java/test/test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/resources/spring/spring_servlet.xml" afterPath="$PROJECT_DIR$/test_controller/src/main/resources/spring/spring_servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/test_controller/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/pom.xml" afterPath="$PROJECT_DIR$/test_controller2/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/enum_test/Color.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/enum_test/Color.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/enum_test/JdbcType.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/enum_test/JdbcType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/main/Main.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/BaseEntity.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/BaseEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/CookieInfo.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/CookieInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/LoginUserModel.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/LoginUserModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/WhiteListEntity.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/WhiteListEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/WhiteListHotelEntity.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/model/WhiteListHotelEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/util/MD5String.java" afterPath="$PROJECT_DIR$/test_controller2/src/main/java/javaweb/util/MD5String.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/resources/db/db.properties" afterPath="$PROJECT_DIR$/test_controller2/src/main/resources/db/db.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/resources/log2/log4j.properties" afterPath="$PROJECT_DIR$/test_controller2/src/main/resources/log2/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_mybatis/mybatis_conf.xml" afterPath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_mybatis/mybatis_conf.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_mybatis/spring_mybatis.xml" afterPath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_mybatis/spring_mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_servlet/spring_servlet.xml" afterPath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_servlet/spring_servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_servlet/springmvc_servlet.xml" afterPath="$PROJECT_DIR$/test_controller2/src/main/resources/spring_servlet/springmvc_servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/jquery/jquery-3.2.1.js" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/jquery/jquery-3.2.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/lang.xml" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/lang.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/loginUserModel.html" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/loginUserModel.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/loginUserModel.jsp" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/loginUserModel.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/note.xml" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/note.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/special_token.html" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/pages/special_token.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/xsd/note.xsd" afterPath="$PROJECT_DIR$/test_controller2/src/main/webapp/WEB-INF/xsd/note.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountEntity.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountRoleEntity.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountRoleEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AuthorityEntity.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AuthorityEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleAuthorityEntity.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleAuthorityEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleEntity.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleEntity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountMapper.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountRoleMapper.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountRoleMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AuthorityMapper.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AuthorityMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleAuthorityMapper.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleAuthorityMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleMapper.java" afterPath="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountRoleMapper.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountRoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AuthorityMapper.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AuthorityMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleAuthorityMapper.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleAuthorityMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleMapper.xml" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/tools/normalize.sh" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/tools/normalize.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/tools/rmEntityAndMapper.sh" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/tools/rmEntityAndMapper.sh" />
     </list>
     <ignored path="$PROJECT_DIR$/access_facebook_data/target/" />
     <ignored path="$PROJECT_DIR$/test_controller/target/" />
@@ -124,32 +41,64 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="normalize.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/tools/normalize.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j2.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/log4j2.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="140">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_ml/pom.xml">
+      <file leaf-file-name="AccountRoleMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountRoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="17" column="10" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="24" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="-320">
+              <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+              <folding>
+                <marker date="1510565119836" expanded="true" signature="1077:1185" ph="select from account_role" />
+                <marker date="1510565119836" expanded="true" signature="1259:1321" ph="delete from " />
+                <marker date="1510565119836" expanded="true" signature="1408:1798" ph="insert into account_role... " />
+                <marker date="1510565119836" expanded="true" signature="3336:4107" ph="update accou... " />
+                <marker date="1510565119836" expanded="true" signature="4196:4600" ph="update accou... " />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="AccountMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="66" column="0" lean-forward="false" selection-start-line="66" selection-start-column="0" selection-end-line="67" selection-end-column="94" />
-              <folding />
+            <state relative-caret-position="-1137">
+              <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+              <folding>
+                <marker date="1510565119831" expanded="true" signature="1061:1164" ph="select from account" />
+                <marker date="1510565119831" expanded="true" signature="1238:1295" ph="delete from " />
+                <marker date="1510565119831" expanded="true" signature="1378:1758" ph="insert into account... " />
+                <marker date="1510565119831" expanded="true" signature="3274:4033" ph="update accou... " />
+                <marker date="1510565119831" expanded="true" signature="4118:4512" ph="update accou... " />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -157,31 +106,11 @@
       <file leaf-file-name="MBG_Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/MBG_Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccountEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#744#752#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="normalize.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/tools/normalize.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="444">
-              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -206,9 +135,12 @@
         <option value="$PROJECT_DIR$/java_ml/src/main/resources/tools/addAnnotation.sh" />
         <option value="$PROJECT_DIR$/java_ml/src/main/resources/tools/deleteRedundant.sh" />
         <option value="$PROJECT_DIR$/java_ml/src/main/resources/tools/rename.sh" />
-        <option value="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml" />
         <option value="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountRoleEntity.java" />
+        <option value="$PROJECT_DIR$/java_ml/src/main/resources/tools/rmEntityAndMapper.sh" />
+        <option value="$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountMapper.java" />
         <option value="$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountEntity.java" />
+        <option value="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml" />
+        <option value="$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountEntityMapper.xml" />
         <option value="$PROJECT_DIR$/java_ml/src/main/resources/tools/normalize.sh" />
         <option value="$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties" />
       </list>
@@ -382,6 +314,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="mapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjt_train_171013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wjt_train_171013" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java_ml" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -447,40 +409,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wjt_train_171013" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="wjt_train_171013" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java_ml" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javaweb" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -951,12 +879,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510539270823</updated>
-      <workItem from="1510539274478" duration="9650000" />
+      <workItem from="1510539274478" duration="18883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9650000" />
+    <option name="totallyTimeSpent" value="18883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-4" width="1860" height="1084" extended-state="6" />
@@ -983,7 +911,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1022,14 +950,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/log4j2.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mbgConfiguration.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="409">
@@ -1038,26 +958,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/tools/rmEntityAndMapper.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mappers/AccountEntityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="265" column="0" lean-forward="true" selection-start-line="265" selection-start-column="0" selection-end-line="265" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1078,23 +982,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleEntityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AuthorityEntityMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountEntityMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1118,34 +1006,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/tools/rename.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleAuthorityMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
           <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="129" column="0" lean-forward="false" selection-start-line="129" selection-start-column="0" selection-end-line="129" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1182,36 +1046,170 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/MBG_Main.java">
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/tools/rename.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="358">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="33" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/RoleEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/entity/AccountEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="169">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/mapper/AccountRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xmlp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/tools/rmEntityAndMapper.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1400">
+          <caret line="29" column="31" lean-forward="true" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountRoleEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="115" column="11" lean-forward="true" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleAuthorityEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/RoleEntityMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-420">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/java/javaweb/main/MBG_Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="26" column="33" lean-forward="false" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#744#752#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountRoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="26" column="43" lean-forward="false" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+          <folding>
+            <marker date="1510565119836" expanded="true" signature="1077:1185" ph="select from account_role" />
+            <marker date="1510565119836" expanded="true" signature="1259:1321" ph="delete from " />
+            <marker date="1510565119836" expanded="true" signature="1408:1798" ph="insert into account_role... " />
+            <marker date="1510565119836" expanded="true" signature="3336:4107" ph="update accou... " />
+            <marker date="1510565119836" expanded="true" signature="4196:4600" ph="update accou... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/mapper/AccountMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1137">
+          <caret line="33" column="11" lean-forward="true" selection-start-line="33" selection-start-column="11" selection-end-line="33" selection-end-column="11" />
+          <folding>
+            <marker date="1510565119831" expanded="true" signature="1061:1164" ph="select from account" />
+            <marker date="1510565119831" expanded="true" signature="1238:1295" ph="delete from " />
+            <marker date="1510565119831" expanded="true" signature="1378:1758" ph="insert into account... " />
+            <marker date="1510565119831" expanded="true" signature="3274:4033" ph="update accou... " />
+            <marker date="1510565119831" expanded="true" signature="4118:4512" ph="update accou... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/tools/normalize.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="444">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/log4j2.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="140">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>

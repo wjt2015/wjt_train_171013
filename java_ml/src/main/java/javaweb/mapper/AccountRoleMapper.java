@@ -3,15 +3,15 @@ package javaweb.mapper;
 import javaweb.entity.AccountRoleEntity;
 
 public interface AccountRoleMapper {
-    int deleteByPrimaryKey(Integer id);
+    int delete(Integer id);
 
-    int insert(AccountRoleEntity record);
+    int save(AccountRoleEntity record);
 
-    int insertSelective(AccountRoleEntity record);
+    int save(AccountRoleEntity record);
 
-    AccountRoleEntity selectByPrimaryKey(Integer id);
+    AccountRoleEntity query(Integer id);
 
-    int updateByPrimaryKeySelective(AccountRoleEntity record);
+    int update(AccountRoleEntity record);
 
-    int updateByPrimaryKey(AccountRoleEntity record);
+    int update(AccountRoleEntity record);
 }

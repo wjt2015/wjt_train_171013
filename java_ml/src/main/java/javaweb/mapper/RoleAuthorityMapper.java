@@ -3,15 +3,15 @@ package javaweb.mapper;
 import javaweb.entity.RoleAuthorityEntity;
 
 public interface RoleAuthorityMapper {
-    int deleteByPrimaryKey(Integer id);
+    int delete(Integer id);
 
-    int insert(RoleAuthorityEntity record);
+    int save(RoleAuthorityEntity record);
 
-    int insertSelective(RoleAuthorityEntity record);
+    int save(RoleAuthorityEntity record);
 
-    RoleAuthorityEntity selectByPrimaryKey(Integer id);
+    RoleAuthorityEntity query(Integer id);
 
-    int updateByPrimaryKeySelective(RoleAuthorityEntity record);
+    int update(RoleAuthorityEntity record);
 
-    int updateByPrimaryKey(RoleAuthorityEntity record);
+    int update(RoleAuthorityEntity record);
 }

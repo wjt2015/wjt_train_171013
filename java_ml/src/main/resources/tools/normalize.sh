@@ -1,7 +1,10 @@
 #!/bin/bash
 
 
-#./normalize.sh /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java/javaweb/entity /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java/javaweb/mapper /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/resources/mapper "*EntityMapper*" "s/Entity//"
+#./normalize.sh /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java/javaweb/entity /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java/javaweb/mapper /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/resources/mapper "*EntityMapper*" "s/Entity//g"
+
+#./normalize.sh /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/UGC_projects/ims_core_provider_171106/ims-provider/ims-core-dao/src/main/java/com/qunar/hotel/ims/dao/entity/authority /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/UGC_projects/ims_core_provider_171106/ims-provider/ims-core-dao/src/main/java/com/qunar/hotel/ims/dao/mysql/authority /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/UGC_projects/ims_core_provider_171106/ims-provider/ims-core-dao/src/main/resources/mapper "*EntityMapper*" "s/Entity//"
+
 
 #删除Entity.java内多余的内容
 dir=$1
@@ -46,8 +49,21 @@ done
 
 mapperDirList=($2 $3)
 
-fileNamePattern=$4
-renamePattern=$5
+
+#设置默认的文件名模式和修改模式
+fileNamePattern="*EntityMapper*"
+renamePattern="s/Entity//g"
+
+#也可通过参数设置文件名模式和修改模式
+if test $# -ge 4
+then
+    fileNamePattern=$4
+fi
+
+if test $# -ge 5
+then
+    renamePattern=$5
+fi
 
 
 for mapperDir in ${mapperDirList[*]}
@@ -57,14 +73,38 @@ do
     for file in ${mapperFileList[*]}
     do
         #更改相应的接口/类名
-	    sed -i 's/EntityMapper/Mapper/' ${file}
+	    sed -i 's/EntityMapper/Mapper/g' ${file}
         #更改文件名
 	    rename ${renamePattern} ${file}
     done
 done
 
 #修改成员名
-sed -i 's/countofmember/countOfMember/' $(grep -rl "countofmember" ./)
-sed -i "s/ByPrimaryKey//" $(grep -rl "ByPrimaryKey")
+echo "修改成员名--------"
+sed -i 's/countofmember/countOfMember/g' $(grep -rl "countofmember" ${dir})
+for mapperDir in ${mapperDirList[*]}
+do
+    echo "+++;mapperDir=${mapperDir}"
+    sed -i 's/countofmember/countOfMember/g' $(grep -rlG "countofmember" ${mapperDir})
+
+done
+
+#修改java源代码
+mapperJavaDir=$2
+echo "mapperJavaDir=${mapperJavaDir};*******"
+sed -i "s/insert\w*(/save(/g" $(grep -rlG "insert\w*(" ${mapperJavaDir})
+sed -i "s/select\w*(/query(/g" $(grep -rlG "select\w*(" ${mapperJavaDir})
+sed -i "s/ByPrimaryKey\w*(/(/g" $(grep -rlG "ByPrimaryKey\w*(" ${mapperJavaDir})
+
+#修改mapper.xml文件
+xmlDir=$3
+echo "xmlDir=${xmlDir};---------"
+sed -i "s/id=\"insert\w*\"/id=\"save\"/g" `grep -rlG "id=\"insert\w*\"" ${xmlDir}`
+sed -i "s/id=\"select\w*\"/id=\"query\"/g" `grep -rlG "id=\"select\w*\"" ${xmlDir}`
+sed -i "s/ByPrimaryKey\w*\"/\"/g" `grep -rlG "ByPrimaryKey" ${xmlDir}`
+
+#sed -i "s/id=\"insert*\"/id=\"save\"/g" `grep -rl "id=\"insert\w*\"" /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/resources/mapper`
+
+#sed -i "s/id=\"insert*\"/id=\"save\"/g" /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/resources/mapper/AccountMapper.xml
 
 
