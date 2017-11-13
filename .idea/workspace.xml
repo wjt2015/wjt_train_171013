@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7a3341e-34a0-41e9-82d3-334050ef5ab3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/access_facebook_data/access_facebook_data.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler/crawler.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/crawler_2/crawler_2.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml/java_ml.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_ml2/java_ml2.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/java_web/java_web.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/schedule_test/schedule_test.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_controller/test_controller.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test_controller2/test_controller2.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wjt_train_171013.iml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/src/main/java/javaweb/main/Main.java" afterPath="$PROJECT_DIR$/crawler/src/main/java/javaweb/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/crawler/src/main/resources/log4j2.properties" afterPath="$PROJECT_DIR$/crawler/src/main/resources/log4j2.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/github.sh" afterPath="$PROJECT_DIR$/github.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties" afterPath="$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties" />
     </list>
     <ignored path="$PROJECT_DIR$/access_facebook_data/target/" />
     <ignored path="$PROJECT_DIR$/test_controller/target/" />
@@ -42,8 +27,8 @@
       <file leaf-file-name="github.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/github.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+            <state relative-caret-position="120">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -63,7 +48,7 @@
         <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -661,16 +646,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510539270823</updated>
-      <workItem from="1510539274478" duration="151000" />
+      <workItem from="1510539274478" duration="262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="151000" />
+    <option name="totallyTimeSpent" value="262000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="60" y="-4" width="1860" height="1084" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -694,7 +678,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32983193" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24972376" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -730,15 +714,15 @@
     <entry file="file://$PROJECT_DIR$/java_ml/src/main/resources/db/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/github.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="41" lean-forward="false" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
