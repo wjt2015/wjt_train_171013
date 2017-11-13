@@ -2,7 +2,7 @@ package javaweb.mapper;
 
 import javaweb.entity.AccountRoleEntity;
 
-public interface AccountRoleEntityMapper {
+public interface AccountRoleMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(AccountRoleEntity record);

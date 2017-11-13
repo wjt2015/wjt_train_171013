@@ -37,15 +37,16 @@
 #sed -i "s/public class/@AllArgsConstructor\npublic class/" /media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java/javaweb/entity/AuthorityEntity.java
 
 
-strList=("import lombok.AllArgsConstructor;"  "import lombok.Getter;"  "import lombok.NoArgsConstructor;"  "import lombok.Setter;"  "import lombok.ToString;"  "import lombok.experimental.Accessors;"  "/**"  "* @author jintao.wang `date "+Date: %Y-%m-%d Time: %p%l:%M"` "  "*/"  "@AllArgsConstructor"  "@NoArgsConstructor"  "@Setter"  "@Getter"  "@EqualsAndHashCode"  "@Accessors(chain = true)"   )
+strList=("import lombok.AllArgsConstructor;"  "import lombok.Getter;"  "import lombok.NoArgsConstructor;"  "import lombok.Setter;"  "import lombok.ToString;"  "import lombok.experimental.Accessors;"  "\/\*\* @author jintao.wang `date '+Date: %Y-%m-%d Time: %p%l:%M'` "  "\*\/"  "@AllArgsConstructor"  "@NoArgsConstructor"  "@Setter"  "@Getter" "@ToString" "@Accessors(chain = true)")
 
 
 dir=$1
 javaEntityFileList=`find ${dir} -name "*Entity.java"`
 for file in ${javaEntityFileList[*]}
 do
-for str in #{strList[*]}
+for str in ${strList[*]}
 do
+  echo "str=${str}"
   sed -i "s/public class/${str}\npublic class/" ${file}
 done
 

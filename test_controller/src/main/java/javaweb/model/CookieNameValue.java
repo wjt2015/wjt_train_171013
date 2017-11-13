@@ -4,7 +4,7 @@
 package javaweb.model;
 
 /**
- * @author jintao.wang  Date: 17-10-10 Time: 下午5:59
+ * @author jintao.wang Date: 17-10-10 Time: 下午5:59
  */
 
 import lombok.AllArgsConstructor;
@@ -23,4 +23,3 @@ public class CookieNameValue {
     private String name;
     private String value;
 }
-    

@@ -3,20 +3,22 @@
  */
 package javaweb.common;
 
+import java.util.Date;
+
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
+
 import com.fasterxml.jackson.annotation.JsonFormat;
+
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
-import org.apache.commons.lang3.builder.ToStringBuilder;
-import org.apache.commons.lang3.builder.ToStringStyle;
-
-import java.util.Date;
 
 /**
- * @author jintao.wang  Date: 17-11-10 Time: 下午2:29
+ * @author jintao.wang Date: 17-11-10 Time: 下午2:29
  */
 
 @AllArgsConstructor
@@ -44,4 +46,3 @@ public class BaseEntity {
         return ToStringBuilder.reflectionToString(this, ToStringStyle.SHORT_PREFIX_STYLE);
     }
 }
-    

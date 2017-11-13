@@ -35,5 +35,3 @@ public class OndutyModel implements Serializable {
     private Byte onduty;
 
 }
-
-

@@ -4,8 +4,9 @@
 package javaweb.main;
 
 /**
- * @author jintao.wang  Date: 17-11-10 Time: 下午12:06
+ * @author jintao.wang Date: 17-11-10 Time: 下午12:06
  */
+
 import java.io.File;
 import java.io.IOException;
 import java.sql.SQLException;
@@ -53,5 +54,3 @@ public class MBG_Main {
         }
     }
 }
-
-

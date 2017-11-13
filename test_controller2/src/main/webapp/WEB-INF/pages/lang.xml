@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<wjt xmlns="http://www.wjt-lang.xsd"
-     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<wjt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xmlns="http://www.wjt-lang.xsd"
      xsi:schemaLocation="http://www.wjt-lang.xsd ../xsd/lang.xsd ">
 
 

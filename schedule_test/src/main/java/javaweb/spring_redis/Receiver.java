@@ -3,14 +3,14 @@
  */
 package javaweb.spring_redis;
 
+import java.util.concurrent.CountDownLatch;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.concurrent.CountDownLatch;
-
 /**
- * @author jintao.wang  Date: 17-10-20 Time: 上午11:51
+ * @author jintao.wang Date: 17-10-20 Time: 上午11:51
  */
 public class Receiver {
     private static final Logger LOGGER = LoggerFactory.getLogger(Receiver.class);
@@ -27,5 +27,3 @@ public class Receiver {
         latch.countDown();
     }
 }
-
-

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:context="http://www.springframework.org/schema/context"
        xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans.xsd
 	   http://www.springframework.org/schema/context
@@ -11,15 +11,14 @@
 		http://www.springframework.org/schema/mvc/spring-mvc-3.2.xsd">
 
     <context:component-scan base-package="javaweb.controller"/>
- <!--   <mvc:annotation-driven/>-->
+    <!--   <mvc:annotation-driven/>-->
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/WEB-INF/pages/"/>
         <property name="suffix" value=".jsp"/>
     </bean>
 
 
-
-<!--    <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter" />-->
+    <!--    <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter" />-->
 
     <bean id="mappingJackson2HttpMessageConverter"
           class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
@@ -32,38 +31,39 @@
             <bean class="com.fasterxml.jackson.databind.ObjectMapper"/>
         </property>
     </bean>
-<!--
-    <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+    <!--
+        <bean class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
 
-    <property name="defaultContentType" value="text/html" />
+        <property name="defaultContentType" value="text/html" />
 
-    &lt;!&ndash;
-        参数值至mimeType的映射,即 /rest?format=json json是key，application/json就是value
-        暂时只支持json和xml
-    &ndash;&gt;
-    <property name="mediaTypes">
-        <map>
-            <entry key="json" value="application/json" />
-            <entry key="xml" value="application/xml" />
-        </map>
-    </property>
-    </bean>-->
-
-    <bean id="contentNegotiationManagerFactoryBean" class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+        &lt;!&ndash;
+            参数值至mimeType的映射,即 /rest?format=json json是key，application/json就是value
+            暂时只支持json和xml
+        &ndash;&gt;
         <property name="mediaTypes">
             <map>
-                <entry key="h" value="application/json" />
                 <entry key="json" value="application/json" />
                 <entry key="xml" value="application/xml" />
-                <entry key="atom" value="application/atom+xml" />
+            </map>
+        </property>
+        </bean>-->
+
+    <bean id="contentNegotiationManagerFactoryBean"
+          class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+        <property name="mediaTypes">
+            <map>
+                <entry key="h" value="application/json"/>
+                <entry key="json" value="application/json"/>
+                <entry key="xml" value="application/xml"/>
+                <entry key="atom" value="application/atom+xml"/>
             </map>
         </property>
     </bean>
     <mvc:annotation-driven content-negotiation-manager="contentNegotiationManagerFactoryBean">
 
-       <!-- <mvc:message-converters>
-            <ref bean="mappingJackson2HttpMessageConverter" />
-        </mvc:message-converters>-->
+        <!-- <mvc:message-converters>
+             <ref bean="mappingJackson2HttpMessageConverter" />
+         </mvc:message-converters>-->
     </mvc:annotation-driven>
 
 </beans>

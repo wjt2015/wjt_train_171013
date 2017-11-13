@@ -2,7 +2,7 @@ package javaweb.mapper;
 
 import javaweb.entity.AuthorityEntity;
 
-public interface AuthorityEntityMapper {
+public interface AuthorityMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(AuthorityEntity record);

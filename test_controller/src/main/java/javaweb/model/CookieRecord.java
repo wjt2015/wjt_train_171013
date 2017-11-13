@@ -13,7 +13,7 @@ import lombok.AllArgsConstructor;
 import lombok.ToString;
 
 /**
- * @author jintao.wang  Date: 17-10-10 Time: 下午5:53
+ * @author jintao.wang Date: 17-10-10 Time: 下午5:53
  */
 
 /**
@@ -30,16 +30,15 @@ public class CookieRecord {
         domainList = new LinkedList<String>();
     }
 
-    public void addCookieNameValue(CookieNameValue cookieNameValue){
+    public void addCookieNameValue(CookieNameValue cookieNameValue) {
         Preconditions.checkNotNull(cookieNameValue);
 
         cookieNameValueList.add(cookieNameValue);
     }
 
-    public void addDomain(String domain){
+    public void addDomain(String domain) {
         Preconditions.checkArgument(Strings.isNullOrEmpty(domain));
 
         domainList.add(domain);
     }
 }
-    

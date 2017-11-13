@@ -3,13 +3,13 @@
  */
 package javaweb.spring_redis;
 
+import java.util.concurrent.CountDownLatch;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import java.util.concurrent.CountDownLatch;
-
 /**
- * @author jintao.wang  Date: 17-10-20 Time: 下午2:32
+ * @author jintao.wang Date: 17-10-20 Time: 下午2:32
  */
 @Configuration
 public class RedisConfig {
@@ -34,7 +34,8 @@ public class RedisConfig {
         return new Receiver(latch);
     }
 
-    @Bean CountDownLatch latch() {
+    @Bean
+    CountDownLatch latch() {
         return new CountDownLatch(1);
     }
 
@@ -44,5 +45,3 @@ public class RedisConfig {
     }
 
 }
-
-

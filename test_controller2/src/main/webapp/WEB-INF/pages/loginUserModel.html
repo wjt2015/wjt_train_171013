@@ -7,14 +7,21 @@
     <script type="text/javascript">
         function sendOne() {
             var url = "http://localhost:8080/test_controller2_tomcat/b.h";
-            var loginUserModel = {"id":1232,"userName":"Bill-Gates","password":"windows","loginTime":18931208931,"role":1,"isLogin":1};
+            var loginUserModel = {
+                "id": 1232,
+                "userName": "Bill-Gates",
+                "password": "windows",
+                "loginTime": 18931208931,
+                "role": 1,
+                "isLogin": 1
+            };
             $.ajax({
-                url:"url",
-                type:"POST",
-                data:loginUserModel,
-                dataType:"json",
-                contentType:"application/json",
-                success:function (result) {
+                url: "url",
+                type: "POST",
+                data: loginUserModel,
+                dataType: "json",
+                contentType: "application/json",
+                success: function (result) {
                     alert("success;result=" + result);
                 }
             });

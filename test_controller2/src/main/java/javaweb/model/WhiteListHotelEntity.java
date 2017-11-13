@@ -42,4 +42,3 @@ public class WhiteListHotelEntity extends BaseEntity {
         return this;
     }
 }
-

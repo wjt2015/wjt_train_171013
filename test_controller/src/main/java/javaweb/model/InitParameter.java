@@ -26,12 +26,12 @@ import lombok.Setter;
 public class InitParameter {
     private List<String> domainList;
 
-    public InitParameter(){
+    public InitParameter() {
         domainList = new LinkedList<String>();
     }
 
-    public void copyDomainList(List<String> domainListParam){
-        if(domainListParam != null){
+    public void copyDomainList(List<String> domainListParam) {
+        if (domainListParam != null) {
             domainList.addAll(domainListParam);
         }
     }
@@ -40,5 +40,3 @@ public class InitParameter {
         this.domainList = domainList;
     }
 }
-
-

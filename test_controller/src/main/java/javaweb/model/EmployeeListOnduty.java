@@ -7,6 +7,7 @@ import lombok.ToString;
 
 /**
  * EmployeeListOnduty类表示值班的员工列表;
+ * 
  * @author jintao.wang Date: 17-7-24 Time: 上午11:13
  */
 @Setter
@@ -15,7 +16,7 @@ import lombok.ToString;
 @ToString
 public class EmployeeListOnduty {
     /**
-     *id,值班列表记录的数据表主键
+     * id,值班列表记录的数据表主键
      */
     private Integer id;
     /**
@@ -39,12 +40,12 @@ public class EmployeeListOnduty {
      */
     private Byte onduty;
 
-    public EmployeeListOnduty(){
+    public EmployeeListOnduty() {
         id = new Integer(0);
         ondutyModule = new String();
         qtalkList = new String();
         nextIdx = new Integer(0);
         stepSize = new Integer(1);
-        onduty = new Byte((byte)1);
+        onduty = new Byte((byte) 1);
     }
 }

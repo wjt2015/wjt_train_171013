@@ -3,15 +3,15 @@
  */
 package javaweb.model;
 
+import java.io.Serializable;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.io.Serializable;
-
 /**
- * @author jintao.wang  Date: 17-10-16 Time: 下午8:39
+ * @author jintao.wang Date: 17-10-16 Time: 下午8:39
  */
 @AllArgsConstructor
 @NoArgsConstructor
@@ -31,4 +31,3 @@ public class LoginUserModel implements Serializable {
 
     private Byte isLogin;
 }
-    

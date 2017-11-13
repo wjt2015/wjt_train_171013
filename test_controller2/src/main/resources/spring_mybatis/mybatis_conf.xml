@@ -3,19 +3,19 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <properties resource="classpath:db/db.properties">
-        <property name="user" value="${mysql.user}" />
-        <property name="password" value="${mysql.password}" />
+        <property name="user" value="${mysql.user}"/>
+        <property name="password" value="${mysql.password}"/>
     </properties>
 
     <settings>
         <setting name="logPrefix" value="wjt_mysql_server--log:"/>
-        <setting name="logImp" value="LOG4J" />
-        <setting name="multipleResultSetsEnabled" value="true" />
-        <setting name="useGeneratedKeys" value="true" />
+        <setting name="logImp" value="LOG4J"/>
+        <setting name="multipleResultSetsEnabled" value="true"/>
+        <setting name="useGeneratedKeys" value="true"/>
     </settings>
 
     <typeAliases>
-        <package name="javaweb.model" />
+        <package name="javaweb.model"/>
     </typeAliases>
 
     <environments default="development">
@@ -23,18 +23,17 @@
             <transactionManager type="JDBC">
             </transactionManager>
             <dataSource type="POOLED">
-                <property name="driver" value="${mysql.driver}" />
-                <property name="url" value="${mysql.url}" />
-                <property name="username" value="${mysql.user}" />
-                <property name="password" value="${mysql.passoword}" />
+                <property name="driver" value="${mysql.driver}"/>
+                <property name="url" value="${mysql.url}"/>
+                <property name="username" value="${mysql.user}"/>
+                <property name="password" value="${mysql.passoword}"/>
             </dataSource>
         </environment>
     </environments>
 
     <mappers>
-        <mapper resource="mapper/*.xml" />
+        <mapper resource="mapper/*.xml"/>
     </mappers>
-
 
 
 </configuration>

@@ -43,4 +43,3 @@ public class WhiteListEntity extends BaseEntity {
         return this;
     }
 }
-

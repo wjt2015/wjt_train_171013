@@ -37,7 +37,7 @@ public class PicBlob {
 
     private Blob picObj;
 
-    public void setBlob(String fileName){
+    public void setBlob(String fileName) {
         Preconditions.checkArgument(!Strings.isNullOrEmpty(fileName));
         Preconditions.checkNotNull(picObj);
 
@@ -51,28 +51,28 @@ public class PicBlob {
             fileImageInputStream = new FileImageInputStream(new File(fileName));
             outputStream = picObj.setBinaryStream(0);
 
-            while ((n = fileImageInputStream.read(buff)) >= 1){
+            while ((n = fileImageInputStream.read(buff)) >= 1) {
                 outputStream.write(buff);
             }
 
         } catch (IOException e) {
-            log.error("setBlob() error!!",e);
+            log.error("setBlob() error!!", e);
         } catch (SQLException e) {
-            log.error("setBlob() error!!",e);
+            log.error("setBlob() error!!", e);
         } finally {
-            if (fileImageInputStream != null){
+            if (fileImageInputStream != null) {
                 try {
                     fileImageInputStream.close();
                 } catch (IOException e) {
-                    log.error("fileImageInputStream.close() error!!",e);
+                    log.error("fileImageInputStream.close() error!!", e);
                 }
             }
 
-            if(outputStream != null){
+            if (outputStream != null) {
                 try {
                     outputStream.close();
                 } catch (IOException e) {
-                    log.error("outputStream.close() error!!",e);
+                    log.error("outputStream.close() error!!", e);
                 }
             }
 

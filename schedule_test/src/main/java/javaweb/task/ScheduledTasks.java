@@ -4,7 +4,7 @@
 package javaweb.task;
 
 /**
- * @author jintao.wang  Date: 17-10-19 Time: 下午7:09
+ * @author jintao.wang Date: 17-10-19 Time: 下午7:09
  */
 
 import java.text.SimpleDateFormat;
@@ -27,5 +27,3 @@ public class ScheduledTasks {
         log.info("log--The time is now {}", dateFormat.format(new Date()));
     }
 }
-
-    

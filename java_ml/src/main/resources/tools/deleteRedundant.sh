@@ -4,7 +4,7 @@
 dir=$1
 fileList=`find ${dir} -name "*Entity.java"`
 
-strArr=(createUser createTime updateUser updateTime available ")" "return" "=" "}" "Date")
+strArr=(createUser createTime updateUser updateTime available "set" "get" "return" "this" "}" "java.util.Date")
 
 
 for file in ${fileList[*]}
@@ -14,11 +14,12 @@ for str in ${strArr[*]}
 do
 echo "str=${str}"
 sed -i "/${str}/d" ${file}
-echo "}" >> ${file}
 #删除空行
 sed -i "/^$/d" ${file}
 
 done
+
+echo "}" >> ${file}
 done
 
 

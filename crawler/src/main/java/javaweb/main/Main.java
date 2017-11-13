@@ -3,12 +3,13 @@
  */
 package javaweb.main;
 
-import lombok.extern.slf4j.Slf4j;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import org.jsoup.Connection;
 import org.jsoup.Jsoup;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
+import lombok.extern.slf4j.Slf4j;
 
 /**
  * @author jintao.wang Date: 17-11-10 Time: 上午10:52

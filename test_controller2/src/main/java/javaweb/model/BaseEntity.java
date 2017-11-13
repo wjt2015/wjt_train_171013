@@ -1,6 +1,6 @@
 /*
-* Copyright (c) 17/10/11 foo.com. All Rights Reserved.
-*/
+ * Copyright (c) 17/10/11 foo.com. All Rights Reserved.
+ */
 package javaweb.model;
 
 import java.io.Serializable;
@@ -18,14 +18,13 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.experimental.Accessors;
 
-
 @AllArgsConstructor
 @NoArgsConstructor
 @Setter
 @Getter
 @EqualsAndHashCode
 @Accessors(chain = true)
-public abstract class BaseEntity  implements Serializable {
+public abstract class BaseEntity implements Serializable {
 
     @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss")
     protected Date createTime;

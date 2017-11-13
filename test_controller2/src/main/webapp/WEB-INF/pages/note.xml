@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<note xmlns="http://www.w3school.com.cn"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.w3school.com.cn"
       xsi:schemaLocation="http://www.w3school.com.cn ../xsd/note.xsd">
     <to>George</to>
     <from>John</from>

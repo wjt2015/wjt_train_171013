@@ -7,7 +7,7 @@
     <properties resource="db/jdbc.properties"/>
     <context id="mysqlMapper" targetRuntime="MyBatis3">
         <!-- 生成的pojo，将implements Serializable-->
-   <!--     <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>-->
+        <!--     <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>-->
 
         <!-- 生成的Java文件的编码 -->
         <property name="javaFileEncoding" value="UTF-8"/>
@@ -19,9 +19,9 @@
             <property name="suppressAllComments" value="true"/>
 
             <!-- 是否添加字段注释 true:是 false：否 -->
-            <property name="addRemarkComments" value="true" />
+            <property name="addRemarkComments" value="true"/>
             <!-- 自定义属性 作者名称 -->
-            <property name="author" value="jintao.wang" />
+            <property name="author" value="jintao.wang"/>
 
         </commentGenerator>
 
@@ -45,7 +45,8 @@
         也可以使用“MAVEN”来自动生成，这样生成的代码会在target/generatord-source目录下
         -->
         <!--<javaModelGenerator targetPackage="com.joey.mybaties.test.pojo" targetProject="MAVEN">-->
-        <javaModelGenerator targetPackage="javaweb.entity" targetProject="/media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java">
+        <javaModelGenerator targetPackage="javaweb.entity"
+                            targetProject="/media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java">
             <property name="enableSubPackages" value="true"/>
             <!-- 从数据库返回的值被清理前后的空格  -->
             <property name="trimStrings" value="true"/>
@@ -55,12 +56,14 @@
         </javaModelGenerator>
 
         <!--对应的mapper.xml文件  -->
-        <sqlMapGenerator targetPackage="mappers" targetProject="/media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/resources">
+        <sqlMapGenerator targetPackage="mapper"
+                         targetProject="/media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/resources">
             <property name="enableSubPackages" value="true"/>
         </sqlMapGenerator>
 
         <!-- 对应的Mapper接口类文件 -->
-        <javaClientGenerator type="XMLMAPPER" targetPackage="javaweb.mapper" targetProject="/media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java">
+        <javaClientGenerator type="XMLMAPPER" targetPackage="javaweb.mapper"
+                             targetProject="/media/linux2014/E242B8EF42B8CA15/WJT_work/projects_1701020/wjt_train/wjt_train_171013/java_ml/src/main/java">
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 

@@ -2,7 +2,7 @@ package javaweb.mapper;
 
 import javaweb.entity.AccountEntity;
 
-public interface AccountEntityMapper {
+public interface AccountMapper {
     int deleteByPrimaryKey(Integer id);
 
     int insert(AccountEntity record);

@@ -10,7 +10,7 @@ import lombok.Setter;
 import lombok.ToString;
 
 /**
- * @author jintao.wang  Date: 17-9-30 Time: 下午9:33
+ * @author jintao.wang Date: 17-9-30 Time: 下午9:33
  */
 @AllArgsConstructor
 @NoArgsConstructor
@@ -30,4 +30,3 @@ public class LoginUserModel {
 
     private Byte isLogin;
 }
-    

@@ -4,7 +4,7 @@
 package javaweb.common;
 
 /**
- * @author jintao.wang  Date: 17-11-10 Time: 下午2:29
+ * @author jintao.wang Date: 17-11-10 Time: 下午2:29
  */
 public enum AvailableEnum {
     NOT_AVAILABLE("无效", 0), AVAILABLE("有效", 1);
@@ -22,6 +22,3 @@ public enum AvailableEnum {
         return "AvailableEnum{" + "name='" + name + '\'' + ", index=" + index + '}';
     }
 }
-    
-    
-    
